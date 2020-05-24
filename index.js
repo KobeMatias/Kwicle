@@ -1,5 +1,4 @@
 const inquirer = require("inquirer");
-// const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 inquirer.prompt([
@@ -41,29 +40,9 @@ inquirer.prompt([
     {
         type: "input",
         name: "githubprofile",
-        message: "link to github profile"
+        message: "Please link your Github profile."
     },
-    // {
-    //   type: "checkbox",
-    //   message: "What would o",
-    //   name: "stack",
-    //   choices: [
-    //     "HTML", 
-    //     "CSS", 
-    //     "JavaScript", 
-    //     "MySQL"
-    //   ]
-    // },
-    // {
-    //   type: "list",
-    //   message: "What is your preferred method of communication?",
-    //   name: "contact",
-    //   choices: [
-    //     "email",
-    //     "phone",
-    //     "telekinesis"
-    //   ]
-    // }
+    
   ]).then(function(data) {
     generateMarkdown(data)
   });

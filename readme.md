@@ -1,38 +1,38 @@
-# read me generator
+# Kobe's Readme Generator
 
 
-[![Generic Badge](https://img.shields.io/badge/<Github>-<Profile>-<brightgreen>)](https://github.com/KobeMatias)
+[![Github Badge](https://img.shields.io/badge/Github-Profile-brightgreen)](https://github.com/KobeMatias)
 
 
 ## Table of Contents
 
 
-(#Description)
+[Description](#Description)
 
-(#Installation)
+[Installation](#Installation)
 
-(#Usage)
+[Usage](#Usage)
 
-(#License)
+[License](#License)
 
-(#Contributing)
+[Contributing](#Contributing)
 
-(#Tests)
+[Tests](#Tests)
 
 
 ## Description
 
-generates read me
+simple command-line README generator for projects.
 
 
 ## Installation
 
-download from github
+clone from github repository
 
 
 ## Usage
 
-start by using "node index.js"
+initialize using "node index.js"
 
 
 ## License
@@ -47,6 +47,4 @@ none
 
 ## Tests
 
-none
-
-
+no tests have been ran
